@@ -81,7 +81,7 @@ HTML_TEMPLATE = r'''
 </head>
 <body>
     <div class="sidebar">
-        <div class="brand">ANTIGRAVITY</div>
+        <div class="brand">TAKITA</div>
         <div class="card">
             <div style="display:flex; align-items:center; margin-bottom:10px;">
                 <div id="status-dot" class="status-dot"></div>
@@ -423,3 +423,4 @@ if __name__ == "__main__":
     log.setLevel(logging.ERROR) # Silence flask logs
     print("ULTIMATE BOT RUNNING ON http://localhost:5000")
     app.run(port=5000, debug=True, use_reloader=False)
+
